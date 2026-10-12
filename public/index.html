@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WCL Scout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><span class="eyebrow">魔兽世界战斗记录助手</span><h1>WCL Scout</h1></div>
+      <button id="settingsButton" class="ghost">接口设置</button>
+    </header>
+    <section class="hero">
+      <h2>组人之前，先看稳定性。</h2>
+      <p>默认只看15层及以上的公开样本。总分和最高层只显示履历，不当作技术评分。</p>
+      <form id="searchForm" class="search">
+        <input id="name" placeholder="请输入角色名" required>
+        <input id="server" placeholder="请输入服务器名称" required>
+        <select id="region"><option>CN</option><option>EU</option><option>US</option><option>KR</option><option>TW</option></select>
+        <button type="submit">分析玩家</button>
+      </form>
+      <div id="status"></div>
+    </section>
+    <section id="result" class="result hidden"></section>
+  </main>
+  <dialog id="settings">
+    <form id="settingsForm" method="dialog">
+      <h2>战斗记录接口设置</h2>
+      <label>应用编号<input id="clientId" autocomplete="off"></label>
+      <label>应用密钥<input id="clientSecret" type="password" autocomplete="off"></label>
+      <p>凭据只保存在当前电脑的应用数据目录，不会写入WoW插件。</p>
+      <div class="actions"><button type="button" id="closeSettings" class="ghost">取消</button><button type="submit">保存</button></div>
+    </form>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>

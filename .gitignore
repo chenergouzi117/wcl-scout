@@ -1,0 +1,7 @@
+node_modules/
+cache/
+config.local.json
+wow-path.txt
+*.log
+WoWCombatLog-*.txt
+dist/

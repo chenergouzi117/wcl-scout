@@ -1,0 +1,9 @@
+## Interface: 120100
+## Title: WCL Scout
+## Notes: 集合石申请者采集与WCL评级展示
+## Author: WCL Scout
+## Version: 0.1.0
+## SavedVariables: WCLScoutDB
+Data.lua
+Core.lua
+UI.lua

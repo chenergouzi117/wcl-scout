@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "zoneId": 55,
+  "key": "warrior_arms",
+  "className": "warrior",
+  "specName": "arms",
+  "generatedAt": "2026-10-02T04:02:36.937Z",
+  "sourceSamples": 383,
+  "dungeons": [
+    {
+      "encounterId": 12993,
+      "encounterName": "Altar of Fangs",
+      "file": "12993.json"
+    },
+    {
+      "encounterId": 12825,
+      "encounterName": "Den of Nalorakk",
+      "file": "12825.json"
+    },
+    {
+      "encounterId": 61762,
+      "encounterName": "Kings' Rest",
+      "file": "61762.json"
+    },
+    {
+      "encounterId": 12813,
+      "encounterName": "Murder Row",
+      "file": "12813.json"
+    },
+    {
+      "encounterId": 112521,
+      "encounterName": "Ruby Life Pools",
+      "file": "112521.json"
+    },
+    {
+      "encounterId": 61877,
+      "encounterName": "Temple of Sethraliss",
+      "file": "61877.json"
+    },
+    {
+      "encounterId": 12859,
+      "encounterName": "The Blinding Vale",
+      "file": "12859.json"
+    },
+    {
+      "encounterId": 12923,
+      "encounterName": "Voidscar Arena",
+      "file": "12923.json"
+    }
+  ]
+}

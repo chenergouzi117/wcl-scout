@@ -1,0 +1,13 @@
+{
+  "name": "wcl-scout",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WCL-based Mythic+ applicant scout and WoW addon companion",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "clientId": "在这里填写 WCL V2 Client ID",
+  "clientSecret": "在这里填写 WCL V2 Client Secret",
+  "port": 17385,
+  "zoneId": 55,
+  "cacheHours": 12
+}

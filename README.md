@@ -23,4 +23,3 @@
 仓库和发行包不包含开发者的 WCL 密钥、个人查询缓存、战斗日志或原始采样报告。`addon/WCLScout/Data.lua` 是空白初始文件；本地助手运行后会在用户电脑上生成缓存数据。`data/band-standards` 提供聚合对比标准。
 
 源码无需额外 npm 依赖。运行测试：`npm test`。
-
